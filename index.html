@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>approvaLab Panel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/question_view.js" type = 'module' defer></script>
+    
+</head>
+<body>
+    <div class="fade"></div>
+    <section class="container">
+        
+        <section class="filters">
+            <div class="panel">
+                <div class="filter-element open-card hidden">
+                    <h1 class="content"></h1>
+                </div>
+            </div>
+
+
+
+            
+            <div class="filter-options">
+
+                <div class="option">
+                    <summary><span class="filter-name">Concurso</span> <img class="bt-f" src="./assets/arrow-down.svg" alt=""></summary>    
+
+                </div>
+                
+                <div class="option">
+                    <summary><span class="filter-name">Banca</span> <img class="bt-f" src="./assets/arrow-down.svg" alt=""></summary>
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">Instituição</span> <img class="bt-f" src="./assets/arrow-down.svg" alt=""></summary>                
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">Escolaridade</span> <img class="bt-f" src="./assets/arrow-down.svg" alt=""></summary>                  
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">Disciplina</span> <img class="bt-f" src="./assets/arrow-down.svg" alt=""></summary>                  
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">Assunto</span> <img src="./assets/arrow-down.svg" alt="" class="bt-f"></summary>                    
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">Cargo</span> <img src="./assets/arrow-down.svg" alt="" class="bt-f"></summary>
+                   
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">Ano</span> <img src="./assets/arrow-down.svg" alt="" class="bt-f"></summary>
+                    
+                </div>
+
+                <div class="option">
+                    <summary><span class="filter-name">tipo de questão</span> <img src="./assets/arrow-down.svg" alt="" class="bt-f"></summary>
+                    
+                </div>
+                <div class="option">
+                    <summary><span class="filtername">Excluir questões anuladas</span></summary>
+                </div>
+                <div class="option">    
+                    <summary ><span class="filtername">Classificar por mais recente</span></summary>
+                </div>
+                <div class="option">
+                    <summary id="add"><span class="filtername">Adicionar nova questão</span></summary>
+                </div>
+                
+            </div>
+        </section>
+        <section class="search-questions">
+            <div class="search">
+                <input type="search" name="search" id="search" placeholder="pesquisar questão...">
+                <button type="submit" id = "search_button">Pesquisar </button>
+            </div>
+            <section class="questions">
+            </section>
+        </section>
+    </section>
+</body>
+</html>
+

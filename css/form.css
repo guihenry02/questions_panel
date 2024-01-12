@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Ubuntu Mono', monospace;
+    transition:  1s ease-in-out; /* Padrão */
+    -webkit-transition: 1s ease-in-out; /* Safari e Chrome */
+    -moz-transition: 1s ease-in-out; /* Firefox */
+    -o-transition: 1s ease-in-out; /* Opera */
+}
+
+section{
+    width: 80vw;
+    height: 80vh;
+    max-height: 80vh;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:5vh ;
+    background:linear-gradient(to bottom right, aliceblue, white);
+    border-radius: 10px;
+    box-shadow: 0px -6px 0px 3px #5e60ce;
+}
+form{
+    display: block;
+    
+}
+.header{
+    transform: translateY(-15%);
+    margin-bottom: 2vh;
+}
+.fields{
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    max-height: 60vh;
+    text-align: left;
+}
+.concursofields{
+    display: block;
+    width: 50%;
+    border-right: 2px solid rgba(163, 161, 161, 0.596);
+}
+.questionfields{
+    margin-left: 3.5vw;
+    width: 50%;
+    display: -ms-grid;
+    height: 60vh;
+    
+    
+}
+input[type="text"], textarea{
+    width: 90%;
+    height: 5vh;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    border: .5px solid rgba(128, 128, 128, 0.103);
+}
+input[type="text"]:placeholder-shown{
+    padding-left:2vh;
+}
+textarea{
+    background-color: rgb(245, 249, 253);
+    width: 81%;
+    height: 5vh;
+}
+
+textarea:placeholder-shown{
+    padding:2vh;
+}
+.questionfields input[type="text"], textarea{
+    width: 85%;
+}
+.item{
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+.upsidedown{
+    transform: rotate(180deg);
+}
+.bts{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+input[type="submit"]{
+    width: 20%;
+    height:5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #5e60ce;
+    color: #23c7a3;
+    margin-right: 15%;
+}
+#num_questao{
+    width: 50%;
+    height: 4vh;
+    border-radius: 5px;
+}

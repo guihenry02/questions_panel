@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "Concurso": "Tribunal de Justiça do Estado de São Paulo",
+    "Banca": "VUNESP",
+    "Instituição": "Tribunal de Justiça do Estado de São Paulo",
+    "Escolaridade": "Superior",
+    "Disciplina": "Direito Constitucional",
+    "Assunto": "Direitos e Garantias Fundamentais",
+    "Cargo": "Analista Judiciário",
+    "Ano": "2021",
+    "Tipo_de_questão": "Objetiva",
+    "Enunciado": "Qual é um dos princípios fundamentais previstos na Constituição Federal de 1988?",
+    "Alternativas": ["Legalidade", "Igualdade", "Fraternidade", "Independência"]
+  },
+  {
+    "id": "2",
+    "Concurso": "(INSS)",
+    "Banca": "CESPE",
+    "Instituição": "INSS",
+    "Escolaridade": "Médio",
+    "Disciplina": "Legislação Previdenciária",
+    "Assunto": "Benefícios Previdenciários",
+    "Cargo": "Técnico do Seguro Social",
+    "Ano": "2022",
+    "Tipo_de_questão": "Múltipla escolha",
+    "Enunciado": "Qual dos seguintes não é um benefício previdenciário?",
+    "Alternativas": ["Aposentadoria por invalidez", "Auxílio-reclusão", "Salário-desemprego", "Pensão por morte"]
+  },
+  {
+    "id": "3",
+    "Concurso": "(UFRJ)",
+    "Banca": "COPESE",
+    "Instituição": "UFRJ",
+    "Escolaridade": "Superior",
+    "Disciplina": "Administração Pública",
+    "Assunto": "Gestão de Pessoas",
+    "Cargo": "Professor",
+    "Ano": "2023",
+    "Tipo_de_questão": "Múltipla escolha",
+    "Enunciado": "Qual das seguintes características não está associada à gestão eficaz de pessoas em organizações?",
+    "Alternativas": ["Alta rotatividade de funcionários", "Comunicação eficiente", "Liderança inspiradora", "Desenvolvimento de habilidades"]
+  }
+]

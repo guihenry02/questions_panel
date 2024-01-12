@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/form.css">
+    <script src="./js/form_view.js" defer></script>
+</head>
+<body>
+    <section>
+    <form>
+        <div class="header">
+            <img src="./css/WhatsApp Image 2024-01-10 at 00.42.44.jpeg" alt="">
+            <h1 class="title">Adicionar Questão</h1>
+        </div>
+        <div class="fields">
+            <div class="concursofields">
+                <label for="concurso">Concurso
+                    <input type="text" name="Concurso" id="concurso" placeholder="concurso em que a questão foi cobrada">
+                </label>
+
+                <label for="banca">Banca
+                    <input type="text" name="Banca" id="banca" placeholder="banca organiadora">
+                </label>
+
+                <label for="instituicao">Instituição
+                    <input type="text" name="Instituicao" id="instituicao" placeholder="instituição do concurso">
+                </label>
+
+                <label for="escolaridade">Escolaridade
+                    <input type="text" name="Escolaridade" id="escolaridade" placeholder="nivel de escolaridade do concurso">
+                </label>
+
+                <label for="disciplina">Disciplina
+                    <input type="text" name="Disciplina" id="disciplina" placeholder="disciplina da questão">
+                </label><br>
+                
+            </div>
+            <div class="questionfields">    
+                    <div class="tab1">
+                    <label for="assunto">Assunto<br>
+                        <input type="text" name="Assunto" id="assunto" placeholder="assunto cobrado na questão">
+                    </label><br>
+
+                    <label for="cargo">Cargo<br>
+                        <input type="text" name="Cargo" id="cargo" placeholder="cargo oferecido pelo concurso">
+                    </label><br>
+
+                    <label for="ano">Ano<br>
+                        <input type="text" name="Ano" id="ano" placeholder="ano em que a questão foi cobrada">
+                    </label><br>
+                    
+                    <label for="tipo_de_questao">Tipo de questão
+                        <input type="text" name="tipo_de_questao" id="tipo-questao" placeholder="tipo de questão: multipla escolha, etc...">
+                    </label><br>
+
+                    <label for="enunciado">Enunciado
+                        <textarea name="enunciado" id="enunciado" cols="30" rows="10" placeholder="enunciado da questão"></textarea>
+                    </label>
+                    </div>
+                <div class="altsummary">
+                    <summary>inserir as alternativas da questão  <img src="./assets/arrow-down.svg" alt="" class="arrow"></summary>
+                    <div class="alts hidden">
+                        <input type="text" name="alt1" id="alt1"placeholder="alterativa 1">
+                        <input type="text" name="alt2" id="alt2"placeholder="alterativa 2">
+                        <input type="text" name="alt3" id="alt3"placeholder="alterativa 3">
+                        <input type="text" name="alt4" id="alt4"placeholder="alterativa 4">
+                        <input type="text" name="alt_correta" id="alt_correta"placeholder="alterativa correta">
+                        <label for="num_questao">
+                            <input type="number" name="num_questao" id="num_questao" placeholder="numero da questão: 15, 16 ...">
+                        </label>
+                    </div>
+                </div>
+                <div class="bts">
+                    <input type="submit" value="enviar">
+                </div>
+            </div>
+        </div>
+        
+
+
+       
+    </form>
+</section>
+</body>
+</html>
